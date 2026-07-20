@@ -1,4 +1,4 @@
-package com.rodrigodantas.workshopmongo.services;
+package com.saadkhan.workshopmongo.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.rodrigodantas.workshopmongo.domain.User;
-import com.rodrigodantas.workshopmongo.dto.UserDTO;
-import com.rodrigodantas.workshopmongo.repository.UserRepository;
-import com.rodrigodantas.workshopmongo.services.exception.ObjectNotFoundException;
+import com.saadkhan.workshopmongo.domain.User;
+import com.saadkhan.workshopmongo.dto.UserDTO;
+import com.saadkhan.workshopmongo.repository.UserRepository;
+import com.saadkhan.workshopmongo.services.exception.ObjectNotFoundException;
 
 @Service
 public class UserService {
@@ -23,7 +23,7 @@ public class UserService {
 
 	public User findById(String id) {
 		Optional<User> obj = repo.findById(id);
-		return obj.orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
+		return obj.orElseThrow(() -> new ObjectNotFoundException("Object not found"));
 	}
 	
 	public User insert(User obj) {

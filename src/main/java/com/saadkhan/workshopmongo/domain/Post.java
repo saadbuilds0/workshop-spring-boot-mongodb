@@ -1,4 +1,4 @@
-package com.rodrigodantas.workshopmongo.domain;
+package com.saadkhan.workshopmongo.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -9,8 +9,8 @@ import java.util.Objects;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.rodrigodantas.workshopmongo.dto.AuthorDTO;
-import com.rodrigodantas.workshopmongo.dto.CommentDTO;
+import com.saadkhan.workshopmongo.dto.AuthorDTO;
+import com.saadkhan.workshopmongo.dto.CommentDTO;
 
 @Document
 public class Post implements Serializable {

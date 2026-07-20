@@ -1,4 +1,4 @@
-package com.rodrigodantas.workshopmongo.resources.util;
+package com.saadkhan.workshopmongo.resources.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

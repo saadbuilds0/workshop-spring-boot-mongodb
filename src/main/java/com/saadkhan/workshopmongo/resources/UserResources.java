@@ -1,4 +1,4 @@
-package com.rodrigodantas.workshopmongo.resources;
+package com.saadkhan.workshopmongo.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.rodrigodantas.workshopmongo.domain.Post;
-import com.rodrigodantas.workshopmongo.domain.User;
-import com.rodrigodantas.workshopmongo.dto.UserDTO;
-import com.rodrigodantas.workshopmongo.services.UserService;
+import com.saadkhan.workshopmongo.domain.Post;
+import com.saadkhan.workshopmongo.domain.User;
+import com.saadkhan.workshopmongo.dto.UserDTO;
+import com.saadkhan.workshopmongo.services.UserService;
 
 @RestController
 @RequestMapping(value="/users")
